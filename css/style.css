@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    text-align: center;
+    ;
+    background-color: #E8E8E8;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-todoList {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-todoList h1 {
+    color: #505050;
+}
+
+.allwindow {
+    margin: 0px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgba(80, 80, 80, 0.5)
+}
+
+.mainTodo {
+    display: flex;
+    margin: 0px auto;
+    border: 1px solid transparent;
+    padding: 20px;
+}
+
+.btn-blue {
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: #007BFF;
+    border-color: #007BFF;
+}
+
+.btn-blue:hover {
+    background-color: #6ea7e5;
+}
+
+.btn-red {
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: #DC3545;
+    border-color: #DC3545;
+}
+
+.btn-red:hover {
+    background-color: #e53443;
+}
+
+.List {
+    padding: 10px;
+    text-align: start;
+    overflow: auto;
+}
+
+.list-items {
+    display: flex;
+    background-color: #394CFE;
+    color: white;
+    padding-left: 8px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
